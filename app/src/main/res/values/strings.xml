@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">EcommerceApp</string>
+    <string name="t_n_s_n_ph_m">Tên sản phẩm</string>
+    <string name="gi_100_000_vn">Giá: 100.000 VNĐ</string>
+    <string name="th_m_v_o_gi_h_ng">Thêm vào giỏ hàng</string>
+    <string name="ng_nh_p">Đăng nhập</string>
+</resources>
