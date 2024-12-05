@@ -102,6 +102,7 @@ public class ThanhToanActivity extends AppCompatActivity {
                                         Toast.makeText(getApplicationContext(),"Đặt hàng thành công",Toast.LENGTH_LONG).show();
                                         Intent intent = new Intent(getApplicationContext(), MainActivity.class);
                                         startActivity(intent);
+                                        finish();
                                     },
                                     throwable -> {
                                         Toast.makeText(getApplicationContext(),throwable.getMessage(),Toast.LENGTH_LONG).show();
