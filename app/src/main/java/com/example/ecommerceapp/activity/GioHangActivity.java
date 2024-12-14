@@ -83,7 +83,7 @@ public class GioHangActivity extends AppCompatActivity {
         recyclerViewGioHang.setHasFixedSize(true);
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this);
         recyclerViewGioHang.setLayoutManager(layoutManager);
-        if(Utils.listGioHang.size()==0){
+        if(Utils.listGioHang.isEmpty()){
             giohangtrong.setVisibility(View.VISIBLE);
         }
         else {
